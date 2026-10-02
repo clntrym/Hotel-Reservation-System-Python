@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>733</width>
+    <height>485</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255,255,255);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QWidget" name="widget" native="true">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255,255,255);</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QWidget" name="widget_2" native="true">
+         <widget class="QLineEdit" name="txtFname">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>90</y>
+            <width>301</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(255,255,255);
+border: none;
+border-bottom: 2px solid #00224c;
+color: #00224c;
+padding-bottom: 7px;</string>
+          </property>
+          <property name="placeholderText">
+           <string>Firstname</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="txtLname">
+          <property name="geometry">
+           <rect>
+            <x>360</x>
+            <y>90</y>
+            <width>291</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(255,255,255);
+border: none;
+border-bottom: 2px solid #00224c;
+color: #00224c;
+padding-bottom: 7px;</string>
+          </property>
+          <property name="placeholderText">
+           <string>Lastname</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="txtUname">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>310</y>
+            <width>301</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(255,255,255);
+border: none;
+border-bottom: 2px solid #00224c;
+color: #00224c;
+padding-bottom: 7px;</string>
+          </property>
+          <property name="placeholderText">
+           <string>Username</string>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="cbRole">
+          <property name="geometry">
+           <rect>
+            <x>360</x>
+            <y>200</y>
+            <width>291</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>-1</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QComboBox {
+    background-color: white;
+    border: 1px solid #dcdcdc;
+    border-radius: 8px;
+    padding: 8px 12px;
+    color: #00224C;
+    font-size: 16px;  /* 🔥 bigger text */
+}
+
+QComboBox:hover {
+    border: 1px solid #bfbfbf;
+}
+
+QComboBox:focus {
+    border: 2px solid rgb(245, 192, 34);
+}
+
+QComboBox::drop-down {
+    border: none;
+    width: 30px;  /* slightly bigger */
+}
+
+QComboBox::down-arrow {
+    image: none;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 7px solid #555;
+    margin-right: 10px;
+}
+
+QComboBox QAbstractItemView {
+    background-color: white;
+    border: 1px solid #dcdcdc;
+    selection-background-color: rgb(245, 192, 34);
+    selection-color: black;
+    font-size: 20px; /* dropdown text size */
+}
+QComboBox, QComboBox * {
+    color: black;
+}</string>
+          </property>
+          <property name="currentText">
+           <string>Front Desk</string>
+          </property>
+          <item>
+           <property name="text">
+            <string>Front Desk</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Admin</string>
+           </property>
+          </item>
+         </widget>
+         <widget class="QLineEdit" name="txtGmail">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>200</y>
+            <width>301</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(255,255,255);
+border: none;
+border-bottom: 2px solid #00224c;
+color: #00224c;
+padding-bottom: 7px;</string>
+          </property>
+          <property name="placeholderText">
+           <string>Gmail</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>10</y>
+            <width>151</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Poppins</family>
+            <pointsize>18</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+    color: #00224C;
+}</string>
+          </property>
+          <property name="text">
+           <string>Add Staff</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_2">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>60</y>
+            <width>111</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <pointsize>12</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+    color: black;
+}</string>
+          </property>
+          <property name="text">
+           <string>First Name</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_3">
+          <property name="geometry">
+           <rect>
+            <x>360</x>
+            <y>60</y>
+            <width>111</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <pointsize>12</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+    color: black;
+}</string>
+          </property>
+          <property name="text">
+           <string>Last Name</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_4">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>170</y>
+            <width>111</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <pointsize>12</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+    color: black;
+}</string>
+          </property>
+          <property name="text">
+           <string>Gmail</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_5">
+          <property name="geometry">
+           <rect>
+            <x>360</x>
+            <y>170</y>
+            <width>111</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <pointsize>12</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+    color: black;
+}</string>
+          </property>
+          <property name="text">
+           <string>Role</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_6">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>280</y>
+            <width>111</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <pointsize>12</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+    color: black;
+}</string>
+          </property>
+          <property name="text">
+           <string>Username</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_7">
+          <property name="geometry">
+           <rect>
+            <x>360</x>
+            <y>280</y>
+            <width>111</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <pointsize>12</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+    color: black;
+}</string>
+          </property>
+          <property name="text">
+           <string>Password</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="txtPass">
+          <property name="geometry">
+           <rect>
+            <x>360</x>
+            <y>310</y>
+            <width>301</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(255,255,255);
+border: none;
+border-bottom: 2px solid #00224c;
+color: #00224c;
+padding-bottom: 7px;</string>
+          </property>
+          <property name="placeholderText">
+           <string>Username</string>
+          </property>
+         </widget>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btnSaveStaff">
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+    background-color: rgb(245, 192, 34);
+    color: black;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: rgb(255, 210, 60);
+}
+
+QPushButton:pressed {
+    background-color: rgb(200, 150, 10);
+}
+
+QPushButton:checked {
+    background-color: rgb(200, 150, 10);
+}</string>
+         </property>
+         <property name="text">
+          <string>Save Staff</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
